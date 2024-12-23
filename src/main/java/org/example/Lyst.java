@@ -456,15 +456,6 @@ public class Lyst<T> implements ILyst<T>
             ++len;
             it.next();
         }
-        /*if (first != null)
-        {
-            Node curr = first;
-            while (curr != null)
-            {
-                ++len;
-                curr = curr.next;
-            }
-        }*/
         return len;
     }
 
